@@ -5,8 +5,8 @@ const ContactUs = () => {
     <div className="min-h-screen bg-dropDeepBlue py-12 px-6 lg:px-24">
       {/* Title Section */}
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-white">Contact Us</h1>
-        <p className="text-lg text-gray-300 mt-2">
+        <h1 className="text-3xl lg:text-4xl font-bold text-white">Contact Us</h1>
+        <p className="text-base lg:text-lg text-gray-300 mt-2">
           We'd love to hear from you! Fill out the form below.
         </p>
       </div>
@@ -26,9 +26,9 @@ const ContactUs = () => {
           </div>
 
           {/* Phone Number and Country Code */}
-          <div className="flex space-x-4">
+          <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
             {/* Country Code */}
-            <div className="w-1/3">
+            <div className="lg:w-1/3">
               <label htmlFor="country-code" className="block text-lg font-medium text-gray-700">Country Code</label>
               <select 
                 id="country-code" 
@@ -43,7 +43,7 @@ const ContactUs = () => {
             </div>
 
             {/* Phone Number */}
-            <div className="w-2/3">
+            <div className="lg:w-2/3">
               <label htmlFor="phone" className="block text-lg font-medium text-gray-700">Phone Number</label>
               <input 
                 type="tel" 

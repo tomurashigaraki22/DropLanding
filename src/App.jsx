@@ -8,6 +8,7 @@ import Hero2 from './components/Hero2';
 import Hero3 from './components/HEro3';
 import Testimonials from './components/Testimonials';
 import ContactUs from './components/Contact';
+import Footer from './components/Footer';
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
       <Hero3/>
       <Testimonials/>
       <ContactUs/>
+      <Footer/>
     </div>
   );
 };
