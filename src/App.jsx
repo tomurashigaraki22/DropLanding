@@ -5,7 +5,7 @@ import playStoreImage from '../public/googleplay.webp'; // Replace with your ima
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Hero2 from './components/Hero2';
-import Hero3 from './components/HEro3';
+import Hero3 from './components/Hero3';
 import Testimonials from './components/Testimonials';
 import ContactUs from './components/Contact';
 import Footer from './components/Footer';
