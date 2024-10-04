@@ -9,7 +9,7 @@ const Navbar = () => {
             {/* Logo Section */}
             <div className="flex flex-row items-center justify-center space-x-2">
                 <img
-                    src="../../public/icon.png"
+                    src="/icon.png"
                     alt="DropApp Icon"
                     className="w-10 h-10 rounded-full object-contain"
                 />
