@@ -22,13 +22,13 @@ const Hero3 = () => {
         <div className="relative flex justify-center lg:justify-start">
           {/* Ellipse Image */}
           <img
-            src="../../public/ellipse.png"
+            src="/ellipse.png"
             alt="Ellipse"
             className="absolute inset-0 w-[300px] h-[200px] lg:w-[600px] lg:h-[400px] object-contain"
           />
           {/* iPhone Image */}
           <img
-            src="../../public/iphone.png"
+            src="/iphone.png"
             alt="iPhone"
             className="relative w-[150px] h-[300px] lg:w-[250px] lg:h-[400px] object-contain"
           />

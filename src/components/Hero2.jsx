@@ -50,7 +50,7 @@ const Hero2 = () => {
         {/* Center image */}
         <div className="w-full lg:w-1/3 flex mx-auto justify-center items-center mb-10 lg:mb-0">
           <img
-            src="../../public/iphone.png"
+            src="/iphone.png"
             alt="Iphone"
             className="w-full lg:w-[600px] h-auto object-contain"
           />
